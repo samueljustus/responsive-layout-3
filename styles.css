@@ -29,6 +29,7 @@ body {
 .row {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 
@@ -93,6 +94,7 @@ body {
 /* image */
 img {
     max-width: 100%;
+    margin-top: 0.5em;
 }
 
 
@@ -164,3 +166,151 @@ img {
 
 /* section-three */
 
+.section-three__title {
+    padding-top: 1em;
+    color: #A59678;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.5rem;
+    line-height: 1.1
+}
+
+.section-three__text {
+    margin-top: 1em;
+    padding-bottom: 2em;
+    font-size: 0.9rem;
+    color: #000;
+}
+
+.card {
+    background-color: #2E323F;
+    margin-bottom: 2em;
+    padding: 1.5em;
+    text-align: center;
+    font-size: 1rem;
+    color: #FFFFFF;
+}
+
+.section-three__card--title {
+    margin-bottom: .5em;
+    font-family: 'Oswald', sans-serif;
+}
+
+/* section-four */
+
+.section-four {
+    background-color: #2E323F;
+}
+
+.section-four__title {
+    padding-top: 2em;
+    text-align: center;
+    color: #FFFF;
+    font-family: 'Oswald', sans-serif;
+}
+
+.footer {
+    margin-top: 2em;
+}
+
+.about__text {
+    font-size: .8rem;
+    margin-top: 1em;
+    color: #ffff;
+    line-height: 1.5
+}
+
+.list {
+    margin-top: 2em;
+}
+
+.about__list-item {
+    list-style: none;
+    color:#FFFFFF;
+    margin-bottom: 1em;
+    font-size: .8em;
+}
+
+.about__desc {
+    font-size: 1rem;
+    font-family: 'Oswald', sans-serif;
+    color: #A59678;
+}
+
+@media (min-width: 700px) {
+    .nav {
+        margin: 0em;
+        padding: 0em;
+        visibility: visible;
+        height: 0;
+        position: relative;
+        display: flex;
+        align-items: center;
+        gap: 2em;
+        
+    } 
+
+    .nav--visibility {
+        display: none;
+    }
+
+    .hamburger {
+        display: none;
+    }
+
+    .nav__list--primary {
+        display: flex;
+        gap: 2em;
+        margin: 0em;
+        padding: 0em;
+    }
+    .nav__list--secondary {
+        display: flex;
+        align-items: center;
+        margin: 0em;
+        padding: 0em;
+        gap: 2em;
+    }
+
+    .flex {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1em;
+    }
+
+    .intro__title {
+        padding: 2em 0 2em;
+        font-size: 3.5rem;
+    }
+
+    .intro__text {
+        margin-top: 4em;
+        font-size: 1.2rem;
+    }
+
+    /* section two */
+
+    .section-two {
+        padding: 5em 0 5em;
+    }
+    .flex--section-two {
+        text-align: center;
+        gap: 2.5em;
+        line-height: 1.1
+    }
+
+    .section-two__text {
+        line-height: 1.7
+    }
+
+    /* section-three */
+
+    .section-three__card {
+        display: flex;
+        gap: 2em;
+    }
+
+    .card {
+        
+    }
+}
