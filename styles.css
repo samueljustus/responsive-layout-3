@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald:wght@700&display=swap');
+
+
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Oswald', sans-serif; */
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header {
+    background-color: #2E323F;
+    text-align: center;
+    padding: 2em 0 2em 0;
+}
+
+.container {
+    width: 85%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.nav {
+    margin-top: 4em;
+    visibility: hidden;
+    height: 0;
+    position: absolute;
+    
+} 
+
+
+.nav--visible {
+    visibility: visible;
+    height: auto;
+    position: relative;
+   
+}
+
+.nav__link {
+    text-decoration: none;
+     color: #FFFFFF;
+}
+
+.nav__link--button {
+    display: inline-block;
+    background: #A59678;
+    padding: .2em 1em;
+    border-radius: 100px;
+
+}
+
+
+.nav__list {
+    list-style: none;
+    font-family: 'Oswald', sans-serif;
+    margin-top: 1em;
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+
+.nav__list--primary {
+    margin-bottom: 2em;
+}
+
+
+
+
+.hamburger {
+    display: block;
+}
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    color: #fff;
+    background-color: #101010;
+    margin: 5px;
+}
+/* image */
+img {
+    max-width: 100%;
+}
+
+
+/* section one */
+
+.section-one {
+    background-color: #3B4050;
+}
+
+.intro__title {
+    font-family: 'Oswald', sans-serif;
+    font-size: 2.2em;
+    line-height: 1;
+    color: #FFFFFF;
+    padding-top: 1em;
+}
+
+.intro__title span {
+    color: #A59678;
+}
+
+.intro__text {
+    margin-top: 2em;
+    line-height: 1.5
+}
+
+.intro__text--desc {
+    color: #fff;
+    margin-bottom: 2em;
+}
+
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #A59678;
+    color: #FFFFFF;
+    padding: .5em 1.5em;
+    border-radius: 100px;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.3rem;
+    margin-bottom: 2em;
+}
+
+
+/* section-two */
+
+.section-two {
+    background-color: grey;
+}
+
+.section-two__card {
+    padding-top: 2em;
+}
+
+.section-two__title {
+    color: #A59678;
+    margin-bottom: .5em;
+    font-family: 'Oswald', sans-serif;
+}
+
+.section-two__text {
+    color: #FFFFFF;
+}
+
+.section-two {
+    padding-bottom: 2em;
+}
+
+/* section-three */
+
