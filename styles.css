@@ -199,6 +199,7 @@ img {
 
 .section-four {
     background-color: #2E323F;
+    padding: .5em 0 2em;
 }
 
 .section-four__title {
@@ -226,7 +227,7 @@ img {
 .about__list-item {
     list-style: none;
     color:#FFFFFF;
-    margin-bottom: 1em;
+    margin-bottom: 3em;
     font-size: .8em;
 }
 
@@ -275,12 +276,12 @@ img {
         display: flex;
         justify-content: center;
         align-items: center;
-        gap: 1em;
     }
 
     .intro__title {
         padding: 2em 0 2em;
         font-size: 3.5rem;
+        width: 80%;
     }
 
     .intro__text {
@@ -299,11 +300,23 @@ img {
         line-height: 1.1
     }
 
+    .section-two__title {
+        font-size: 2rem;
+    }
+
     .section-two__text {
-        line-height: 1.7
+        line-height: 1.6;
+        font-size: 1.1rem
     }
 
     /* section-three */
+    .section-three__title {
+        font-size: 2em;
+    }
+
+    .section-three__text {
+        font-size: 1.2em;
+    }
 
     .section-three__card {
         display: flex;
@@ -311,6 +324,45 @@ img {
     }
 
     .card {
-        
+        line-height: 1.5;
+        font-size: .9rem;
+    }
+    .footer {
+        display: flex;
+        gap: 5em;
+    }
+    .about {
+        width: 40%;
+    }
+    .about__desc {
+        font-size: 1em
+    }
+
+}
+
+@media (min-width: 1000px) {
+    .section-three {
+        padding-top: 5em;
+        padding-bottom: 3em;
+    }
+
+    .section-three__title {
+        font-size: 3em;
+    }
+
+    .section-three__text {
+        font-size: 1.3em;
+    }
+    .section-three--flex {
+        display: flex;
+        gap: 4em;
+    }
+
+    .section-three__card {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 0em;
     }
 }
